@@ -20,5 +20,6 @@ class Solution:
 
         return True
 
+
 print(Solution().isPalindrome("hannah"))
 print(Solution().isPalindrome("A man, a plan, a canal: Panama"))

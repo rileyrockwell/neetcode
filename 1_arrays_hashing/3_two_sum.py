@@ -1,19 +1,11 @@
 from typing import *
 
+
+# Arrays & Hashing
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # data strcuture
-        dic = {}
+        
 
-        for index, integer in enumerate(nums):
-            complement = target - integer
-
-            if complement in dic:
-                return [dic[complement], index]
-
-            dic[integer] = index
-
-        return []
 
 
 
