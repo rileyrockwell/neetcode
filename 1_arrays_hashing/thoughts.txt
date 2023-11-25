@@ -1,0 +1,4 @@
+theory:
+why use a hashmap rather than an array? time complexity.
+
+4. group anagrams

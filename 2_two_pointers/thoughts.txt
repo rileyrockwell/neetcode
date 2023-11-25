@@ -1,0 +1,7 @@
+1. groupAnagrams
+
+2. twoSum
+use the std outline for a two pointers problem. b/c 1 indexed, all we need to do is increase the return indices by 1 "unit". last elif could be changed to an else, but for absolute clarify we leave it as an elif condition.
+
+3. threeSum
+preliminary: if there are three numbers, are two selecting two numbers first to find their sum, then take that sum and compare it to a sum, including the third number? no. how to obtain the current sum of all three components in an O(1) way? two sum. hashmap?
